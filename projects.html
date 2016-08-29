@@ -1,0 +1,15 @@
+---
+layout: default
+title: Projects
+---
+
+
+<ul>
+{% for project in site.data.projects %}
+  <li>
+    <a href="{{site.url}}/{{ project.github_repo }}">
+      {{ project.github_repo }}
+    </a>
+  </li>
+{% endfor %}
+</ul>

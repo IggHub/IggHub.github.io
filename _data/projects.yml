@@ -1,0 +1,14 @@
+- name: Kele
+  github_repo: kele
+
+- name: Blocipedia
+  github_repo: blocipedia
+
+- name: Blocitoff
+  github_repo: blocitoff
+
+- name: Bloccit
+  github_repo: bloccit
+
+- name: Todo-API
+  github_repo: todo-api
