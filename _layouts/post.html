@@ -13,6 +13,11 @@ layout: default
 <div>
   Tags: <p class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</p>
 </div>
+
+<script id="dsq-count-scr" src="//https-igghub-github-io.disqus.com/count.js" async></script>
+
+{% include comments.html %}
+
 <!--
 <div class="related">
   <h2>Related Posts</h2>

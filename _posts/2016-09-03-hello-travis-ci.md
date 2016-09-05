@@ -1,7 +1,8 @@
 ---
-layout: post
-title: Hello, Travis-CI!
-tags: [travis-ci]
+layout:   post
+title:    Hello, Travis-CI!
+tags:     [travis-ci]
+comments: true
 ---
 
 I have been noticing this in a lot of github repos.
