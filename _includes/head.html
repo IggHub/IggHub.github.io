@@ -5,7 +5,7 @@
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
+  <script src="https://use.fontawesome.com/53000e17f3.js"></script>
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
@@ -26,4 +26,7 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+  {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
 </head>
