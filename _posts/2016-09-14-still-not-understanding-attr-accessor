@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 I have been coding with ruby for almost 9 months without really knowing what `attr_accessor` does. Yesterday it finally clicked. I will share what made it click for me. Hopefully it will help you all too!
 
@@ -64,5 +64,3 @@ To put it in a level that I understand (my CS background is almost nil, so I nee
 Since `attr_accessor` act to make `balance` and `owner` behave like a method, what is another way to make `bankiee.owner` and `bankiee.balance` work without using `attr_accessor`? 
 
 [Hint](http://stackoverflow.com/questions/4370960/what-is-attr-accessor-in-ruby)
-
-
