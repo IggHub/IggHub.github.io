@@ -11,7 +11,7 @@ layout: default
 </div>
 
 <div>
-  Tags: <p class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</p>
+  <p class="entry-tags">{% for tag in page.tags %}<a href="{{ site.url }}/tags.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag"><i>#{{ tag }}</i></a>{% unless forloop.last %} &bull; {% endunless %}{% endfor %}</p>
 </div>
 
 <script id="dsq-count-scr" src="//https-igghub-github-io.disqus.com/count.js" async></script>
