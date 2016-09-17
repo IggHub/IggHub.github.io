@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    attr_accessor in two minutes
-tags:     [disqus]
+tags:     [attr_accessor,ruby]
 comments: true
 ---
 
