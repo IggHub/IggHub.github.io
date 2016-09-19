@@ -152,6 +152,7 @@ end
 It creates a super class `Report`. For any additional formatting, all you need to do is create an new subclass and make `Report` your superclass. `HTMLReport`, `PlainTextReport`, they all inherit from `Report` class. No need to touch the existing code. Clean. Elegant. Simple.
 
 Sample command:
+
 ```
 reppie = HTMLReport.new
 => #<HTMLReport:0x0056196cbb2250 @title="Monthly Report", @text=["Things are", "super awesome!"]>
