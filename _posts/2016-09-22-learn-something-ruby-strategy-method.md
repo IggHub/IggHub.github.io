@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    How Ruby Strategy Pattern Works
-tags:     [ruby, ruby design patterns]
+tags:     [ruby, ruby design patterns, strategy pattern]
 comments: true
 ---
 

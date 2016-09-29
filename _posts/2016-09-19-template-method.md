@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Ruby's template method
-tags:     [ruby, ruby design patterns]
+tags:     [ruby, ruby design patterns, template method]
 comments: true
 ---
 
