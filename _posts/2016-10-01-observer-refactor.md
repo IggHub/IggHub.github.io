@@ -6,6 +6,7 @@ comments: true
 ---
 
 Last time we left off with this code using observer method in `Customer` class.
+
 ```
     attr_reader :name, :order
     class Customer
@@ -72,6 +73,7 @@ end
 Try to run the following code above like before; instead of informing them about changed order and price, change just the order.
 
 To use observer method with inheritance, we can do something like this:
+
 ```
 class Subject
   def initialize
