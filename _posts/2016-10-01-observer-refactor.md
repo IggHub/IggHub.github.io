@@ -8,8 +8,8 @@ comments: true
 Last time we left off with this code using observer method in `Customer` class.
 
 ```
+class Customer
     attr_reader :name, :order
-    class Customer
     attr_accessor :order_price
 
     def initialize(name, order, order_price)
