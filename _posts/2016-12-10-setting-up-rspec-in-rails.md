@@ -25,6 +25,7 @@ group :development, :test do
 end
 ```
 
+Don't forget to run `bundle install`
 I usually specify the exact rspec version (in this case, `3.4`). `gem 'rspec-rails'` will do the job. By not specifying it, you are under the risk of having the gem updating itself to the latest one every time you run `bundle install/update`. This may cause the gem dependencies to break = more headache.
 
 Specifying exact version locks the gem version in your app. To check which version is available, I usually go to [rubygems.org](https://rubygems.org/) and look for the desired gems. In this case, as I am typing this, RSpec `3.5` is the latest version.
@@ -32,11 +33,10 @@ Specifying exact version locks the gem version in your app. To check which versi
 Finally:
 
 ```
-bundle install
 rails generate rspec:install
 ```
 
-The latter replaces `test` folder from your rails app with `spec` folder.
+This will create `spec` folder where all rspec files will be located. Delete `test` folder because we will be using `rspec`.
 
 That's it! You are now ready to test!
 
@@ -54,7 +54,7 @@ end
 
 2. `bundle install`
 
-3. Install RSpec by running `rails generate rspec:install`. This will replace the current `test` folder (created by default when starting new rails app) with `spec` folder.
+3. Install RSpec by running `rails generate rspec:install`. This creates new `spec` folder. Delete the current `test` folder (created by default when starting new rails app)
 
 
 ## Todo:
