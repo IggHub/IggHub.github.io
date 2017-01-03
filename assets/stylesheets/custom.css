@@ -12,3 +12,37 @@
 .default-intro {
   padding: 10px 0px 10px 0px;
 }
+
+.project-list {
+  padding: 20px 0px 20px 0px;
+}
+
+.project-ul {
+  list-style-type: none;
+}
+
+.project-li {
+  padding: 10px 0px 50px 0px;
+}
+
+.suit_and_tie {
+  color: white;
+  font-size: 50px;
+  font-family: helvetica;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  background-color: #515151;
+  padding: 4px 30px;
+}
+
+.suit_and_tie:hover {
+  color: black;
+  background-color: white;
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+}

@@ -1,14 +1,60 @@
 - name: Kele
   github_repo: kele
+  desc: Ruby gem API to access Bloc API
+  button: <a class="suit_and_tie" href="google.com">Visit Link</a>
+
 
 - name: Blocipedia
   github_repo: blocipedia
+  desc: Production quality Wiki SaaS
+  button:
 
 - name: Blocitoff
   github_repo: blocitoff
+  desc: Simple, elegant todo list that self-destructs
+  button:
 
 - name: Bloccit
   github_repo: bloccit
+  desc: Highly capable reddit replica
+  button:
 
 - name: Todo-API
   github_repo: todo-api
+  desc: Externally usable todo API to boost productivity by 108%
+  button:
+
+- name: yelpdemo
+  github_repo: yelpdemo
+  desc: Yelp replica for foodies, from foodie
+  button:
+
+- name: blocjams
+  github_repo: blocjams
+  desc: Spotify-wannabe to listen music online
+  button:
+
+- name: blocjams(angular)
+  github_repo: blocjams-angular
+  desc: Angular version of Blocjams
+  button:
+
+- name: react-fish
+  github_repo: react-fish
+  desc: React menu app for seafood lovers
+  button:
+
+- name: instaredux
+  github_repo: instaredux
+  desc: Instagram prototype with React flavor
+  button:
+
+- name: donutify
+  github_repo: donutify
+  desc: Quickly lookup local donut shops
+  button:
+
+- name: pomodoro
+  github_repo: pomodoro
+  desc: Simple pomodoro timer for productive people like you!
+  button:
