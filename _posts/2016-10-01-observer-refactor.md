@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Refactoring Observer Method
-tags:     [ruby, ruby design patterns, observer method]
+tags:     [ruby, observer method]
 comments: true
 ---
 

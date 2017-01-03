@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    RSpec for total beginner - 2 - factorygirl baby steps
+title:    RSpec intro - 2 - factorygirl baby steps
 tags:     [ruby-on-rails, RSpec]
 comments: true
 ---

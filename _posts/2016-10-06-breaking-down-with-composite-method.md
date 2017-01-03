@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Breaking down sophisticated code into manageable chunks?
-tags:     [ruby, ruby design patterns, observer method]
+tags:     [ruby, composite pattern]
 comments: true
 ---
 

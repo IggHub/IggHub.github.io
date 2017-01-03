@@ -3,6 +3,7 @@
 
   {% include head.html %}
 
+
   <body class="layout-reverse">
 
     {% include sidebar.html %}
@@ -13,8 +14,19 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+            <div>
+              <div><img style="height:100px;width:100px;border-radius:50%" src="{{ site.baseurl  }}/assets/images/iggy_square.jpg"></div>
+              <div>
+                <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+              </div>
+              <div><small>{{ site.tagline }}</small></div>
+              <div>
+                <a href="{{ site.baseurl }}/">Home</a>
+                <a href="{{ site.baseurl }}/about">About</a>
+                <a href="{{ site.baseurl }}/projects">Projects</a>
+                <a href="{{ site.baseurl }}/tags">Tags</a>
+              </div>
+            </div>
           </h3>
         </div>
       </div>

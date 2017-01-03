@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Iterating through array
-tags:     [ruby, ruby design patterns, iterator method]
+tags:     [ruby, iterator method]
 comments: true
 ---
 

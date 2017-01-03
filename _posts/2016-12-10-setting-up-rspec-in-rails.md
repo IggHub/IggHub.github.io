@@ -6,6 +6,7 @@ comments: true
 ---
 
 I read [RSpec book](https://www.amazon.com/RSpec-Book-Behaviour-Development-Cucumber/dp/1934356379) to help me understand RSpec. I will share my learning progress here.
+
 ## Setting up RSpec into Rails project
 
 If you haven't already, start making new app on Rails:

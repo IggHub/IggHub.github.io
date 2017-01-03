@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    RSpec for total beginner - 1 - model testing
+title:    RSpec intro - 1 - model testing
 tags:     [ruby-on-rails, RSpec]
 comments: true
 ---

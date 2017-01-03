@@ -1,11 +1,11 @@
 ---
 layout:   post
-title:    RSpec for total beginner - 3 - factorygirl model testing continued
+title:    RSpec intro - 3 - factorygirl model testing continued
 tags:     [ruby-on-rails, RSpec]
 comments: true
 ---
 
-Let's continue on with factories by refactoring our model specs.
+Let's continue on with factories by refactoring our model specs to make it more concise.
 
 ```
 require 'rails_helper'

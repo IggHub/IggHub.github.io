@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Informing Everyone Using Observer Method
-tags:     [ruby, ruby design patterns, observer method]
+tags:     [ruby, observer method]
 comments: true
 ---
 
