@@ -2,7 +2,7 @@
 layout: default
 title: Home
 ---
-<div>
+<div class="default-intro">
   <p>
     Pork strip steak turducken leberkas, pork chop corned beef chicken jerky. Andouille short loin beef pork belly porchetta doner. Ham turkey capicola landjaeger alcatra beef ribs spare ribs pork. Strip steak landjaeger tri-tip andouille. Bacon ham pig venison cow, jowl drumstick pastrami kevin pork kielbasa tongue flank. Frankfurter ground round spare ribs ball tip cow strip steak. Biltong ball tip tenderloin pig, andouille ham hock short loin bresaola tri-tip pastrami turducken venison short ribs spare ribs.
   </p>
@@ -20,7 +20,7 @@ title: Home
     </h2>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-    {{post.excerpt}}
+    {{ post.content | strip_html | truncatewords: 25 }}
   </div>
   {% endfor %}
 </div>

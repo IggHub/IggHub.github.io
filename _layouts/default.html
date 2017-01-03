@@ -14,13 +14,17 @@
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <div>
-              <div><img style="height:100px;width:100px;border-radius:50%" src="{{ site.baseurl  }}/assets/images/iggy_square.jpg"></div>
+            <div class="header-font">
+              <div class="header-image"><img style=";width:100px;border-radius:50%;margin:auto;display:block" src="{{ site.baseurl  }}/assets/images/iggy_square.jpg"></div>
               <div>
-                <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
+                <a class="header-title" href="{{ site.baseurl }}/" title="Home" style="font-weight:900">{{ site.title }}</a>
               </div>
-              <div><small>{{ site.tagline }}</small></div>
-              <div>
+              <div class="header-sub-title">
+                <small>
+                  {{ site.tagline }}
+                </small>
+              </div>
+              <div class="header-nav">
                 <a href="{{ site.baseurl }}/">Home</a>
                 <a href="{{ site.baseurl }}/about">About</a>
                 <a href="{{ site.baseurl }}/projects">Projects</a>

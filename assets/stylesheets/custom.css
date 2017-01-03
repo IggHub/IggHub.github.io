@@ -1,0 +1,14 @@
+.header-font {
+  text-align: center;
+}
+
+.header-nav {
+  letter-spacing: 1.5px;
+  word-spacing: 20px;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.default-intro {
+  padding: 10px 0px 10px 0px;
+}
