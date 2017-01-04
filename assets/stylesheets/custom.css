@@ -1,3 +1,13 @@
+.project-title {
+  font-weight: bold;
+  font-size: 175%;
+  padding: 0px 0px 0px 0px;
+}
+
+.project-content {
+  padding-bottom: 20px;
+}
+
 .header-font {
   text-align: center;
 }
@@ -27,7 +37,7 @@
 
 .suit_and_tie {
   color: white;
-  font-size: 50px;
+  font-size: 35px;
   font-family: helvetica;
   text-decoration: none;
   border: 2px solid white;
@@ -40,9 +50,106 @@
 }
 
 .suit_and_tie:hover {
-  color: black;
+  color: #515151;
+  text-decoration: none;
   background-color: white;
   transition-duration: .2s;
   -webkit-transition-duration: .2s;
   -moz-transition-duration: .2s;
+}
+
+
+
+.appstorebutton a {
+  color: white;
+  text-decoration: none;
+}
+
+.appstorebutton p {
+  font: 30px/1 Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: white;
+  margin: 4px 0 0 65px;
+  width: 180px;
+}
+
+.appstorebutton p small {
+  font-size: 15px;
+}
+
+.appstorebutton a {
+  color: white;
+  text-decoration: none;
+}
+
+.appstorebutton p {
+  font: 30px/1 Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: white;
+  margin: 4px 0 0 65px;
+  width: 180px;
+}
+
+.appstorebutton p small {
+  font-size: 15px;
+}
+
+
+/*Font-Face*/
+@font-face {
+  font-family: 'ModernPictogramsNormal';
+  src: url('modernpics-webfont.eot');
+  src: url('modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+    url('modernpics-webfont.woff') format('woff'),
+    url('modernpics-webfont.ttf') format('truetype'),
+    url('modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Font-Face*/
+@font-face {
+  font-family: 'ModernPictogramsNormal';
+  src: url('modernpics-webfont.eot');
+  src: url('modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+    url('modernpics-webfont.woff') format('woff'),
+    url('modernpics-webfont.ttf') format('truetype'),
+    url('modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.appstorebutton {
+  height: 80px;
+  width: 80px;
+  margin: 50px;
+  position: relative;
+  overflow: hidden;
+  float: left;
+
+  -webkit-border-radius: 40px;
+     -moz-border-radius: 40px;
+   	  border-radius: 40px;
+
+  -webkit-transition: width 1s ease;
+     -moz-transition: width 1s ease;
+       -o-transition: width 1s ease;
+      -ms-transition: width 1s ease;
+	  transition: width 1s ease;
+}
+
+.appstorebutton:hover {
+  width: 275px;
+}
+.mac small:before {
+  content: 'A';
+  position: absolute;
+  top: 22px;
+  left: 19px;
+}
+
+
+/*Button Colors*/
+
+
+.mac {
+  background: #dc2e2e;
 }

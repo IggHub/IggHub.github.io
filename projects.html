@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-<h1>Projects:</h1>
+<h1>Projects</h1>
 
 <div>
   Pork loin tenderloin flank doner turkey strip steak chuck cupim salami sausage pork kielbasa tongue brisket pork belly. Frankfurter cupim andouille t-bone fatback porchetta turducken. Cow chuck doner sausage meatloaf, leberkas jowl. Turkey jowl drumstick, picanha pork chop jerky shankle leberkas. Turducken pastrami pork belly, flank cupim prosciutto swine meatloaf cow.
@@ -14,30 +14,36 @@ title: Projects
   {% for project in site.data.projects %}
   <li class="project-li">
 
-    <div>
+    <div class="project-title">
       <a href="{{site.url}}/{{ project.github_repo }}">
         {{ project.github_repo }}
       </a>
     </div>
 
-    <div>
+    <div class="project-desc">
       {{ project.desc }}
     </div>
 
     <hr>
 
-    <div>
+    <div class="project-images">
       <img src="{{ site.baseurl  }}{{project.images}}">
     </div>
 
-    <div>
+    <div class="project-content">
       Beef ribs pork chop meatloaf, porchetta biltong frankfurter ball tip chuck drumstick short ribs corned beef. Porchetta meatball shank pastrami cupim shankle prosciutto hamburger pork chop jerky biltong spare ribs. Brisket strip steak pork chop bacon corned beef prosciutto turkey short loin cupim pastrami alcatra chicken. Corned beef pig kevin, swine chicken drumstick pork chop porchetta. Frankfurter chuck t-bone, burgdoggen jerky pancetta brisket sausage shankle leberkas hamburger beef ribs bacon prosciutto. Shoulder flank picanha kevin turducken venison pastrami corned beef, swine landjaeger ham hock porchetta.
     </div>
 
-    <div>
+    <div class="project-button">
       {{project.button}}
     </div>
   </li>
   {% endfor %}
   </ul>
 </div>
+
+<!--
+  <div class="appstorebutton mac">
+    <a href="#"><p><small>Available on the Mac</small> App Store</p></a>
+  </div>
+-->
