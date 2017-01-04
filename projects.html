@@ -13,19 +13,27 @@ title: Projects
   <ul class="project-ul">
   {% for project in site.data.projects %}
   <li class="project-li">
+
     <div>
       <a href="{{site.url}}/{{ project.github_repo }}">
         {{ project.github_repo }}
       </a>
     </div>
-    <div>{{ project.desc }}</div>
-    <hr>
+
     <div>
-      IMAGE
+      {{ project.desc }}
     </div>
+
+    <hr>
+
+    <div>
+      <img src="{{ site.baseurl  }}{{project.images}}">
+    </div>
+
     <div>
       Beef ribs pork chop meatloaf, porchetta biltong frankfurter ball tip chuck drumstick short ribs corned beef. Porchetta meatball shank pastrami cupim shankle prosciutto hamburger pork chop jerky biltong spare ribs. Brisket strip steak pork chop bacon corned beef prosciutto turkey short loin cupim pastrami alcatra chicken. Corned beef pig kevin, swine chicken drumstick pork chop porchetta. Frankfurter chuck t-bone, burgdoggen jerky pancetta brisket sausage shankle leberkas hamburger beef ribs bacon prosciutto. Shoulder flank picanha kevin turducken venison pastrami corned beef, swine landjaeger ham hock porchetta.
     </div>
+
     <div>
       {{project.button}}
     </div>
