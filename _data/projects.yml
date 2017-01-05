@@ -18,6 +18,10 @@
   button_link: https://sheltered-everglades-14741.herokuapp.com/
   button: <a class="suit_and_tie" href="https://sheltered-everglades-14741.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
   images: "/assets/images/bloccit.png"
+  explanation: First app made at Bloc. I
+  problem:
+  solution:
+  conclusion:
 
 
 - name: Todo-API
