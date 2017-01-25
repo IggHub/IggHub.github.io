@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    Useful JS reduce trick
+title:    Useful JS reduce trick to tally votes
 tags:     [javascript, reduce]
 comments: true
 ---
@@ -64,6 +64,6 @@ donuts.reduce(reducer, starting);
 //{chocolate: 3, glazed: 3}
 ```
 
-reducer is a little complicated. Let's break it apart. It takes 2 arguments: a tally and an item. Tally will accumulate all elements while item displays an array element from the array during the iteration. If that item does not exist, i.e. first time having `chocolate` element or first time registering `glazed` element, then it will create a new object and store a count of 1. `else` (if that item is found in the object) add 1 to the count with that item name.
+`reducer` is a little complicated. Let's break it apart. It takes 2 arguments: a tally and an item. Tally will accumulate all elements while item displays an array element from the array during the iteration. If that item does not exist, i.e. first time having `chocolate` element or first time registering `glazed` element, then it will create a new object and store a count of 1. `else` (if that item is found in the object) add 1 to the count with that item name.
 
 You can check the count using `result["chocolate"]`, for example, and it will display the number of times `chocolate` occurs in the array (in this example, 3). But if you type in `result['strawberry']`, it will show `undefined`. If we want to add a new item, we would usually do something like, `result["strawberry"] = 1;`, and if we want to add the strawberry count, we would do `result["strawberry"] += 1;`. The same concept is done on the example above, except reduce took away all the repetition.
