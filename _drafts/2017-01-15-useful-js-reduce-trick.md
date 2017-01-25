@@ -1,6 +1,6 @@
 ---
 layout:   post
-title:    A little useful JS reduce trick
+title:    Useful JS reduce trick
 tags:     [javascript, reduce]
 comments: true
 ---
