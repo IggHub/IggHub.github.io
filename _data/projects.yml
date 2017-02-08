@@ -39,13 +39,12 @@
 - name: blocjams
   github_repo: bloc-jams
   desc: Spotify-wannabe to listen music online
-  button_link: https://tutor-tips-53668.netlify.com/
+  button_link: http://superintendant-cheats-37872.netlify.com/
   button: <a class="suit_and_tie" href="https://tutor-tips-53668.netlify.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
 
 - name: blocjams(angular)
   github_repo: bloc-jams-angular
   desc: Angular version of Blocjams
-  button_link: https://smuggler-experience-66057.netlify.com/
   button: <a class="suit_and_tie" href="https://smuggler-experience-66057.netlify.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
 
 - name: react-fish
