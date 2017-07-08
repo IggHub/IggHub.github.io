@@ -146,10 +146,30 @@
   left: 19px;
 }
 
+.project-desc {
+  padding-bottom: 10px;
+}
 
 /*Button Colors*/
 
 
 .mac {
   background: #dc2e2e;
+}
+
+.email-button {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+  background: #6099f6;
+  height: 50px;
+  width: 150px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 50px;
+  opacity: 0.85;
+}
+
+.email-text {
+  color: #ffffff;
 }

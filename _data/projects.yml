@@ -1,9 +1,11 @@
-- name: Blocipedia
-  github_repo: blocipedia
+- name: Wikey-Cloney
+  github_repo: Wikey-Cloney
   desc: Production quality Wiki SaaS
   button_link: https://mighty-journey-47111.herokuapp.com/
   button: <a class="suit_and_tie" href="https://mighty-journey-47111.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
-  images: "/assets/images/blocipedia.png"
+  images: "/assets/images/wikey-cloney.png"
+  timeline: 2016
+  technologies: Ruby on Rails
 
 - name: Blocitoff
   github_repo: blocitoff
@@ -11,6 +13,8 @@
   button_link:  https://murmuring-refuge-65573.herokuapp.com/
   button: <a class="suit_and_tie" href="https://murmuring-refuge-65573.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
   images: "/assets/images/blocitoff.png"
+  timeline: 2016
+  technologies: Ruby on Rails
 
 - name: Bloccit
   github_repo: bloccit
@@ -18,16 +22,20 @@
   button_link: https://sheltered-everglades-14741.herokuapp.com/
   button: <a class="suit_and_tie" href="https://sheltered-everglades-14741.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
   images: "/assets/images/bloccit.png"
-  explanation: First app made at Bloc. I
+  explanation: First Rails app I made ever.
   problem:
   solution:
   conclusion:
+  timeline: 2016
+  technologies: Ruby on Rails
 
 
 - name: Todo-API
   github_repo: todo-api
   desc: Externally usable todo API to boost productivity by 108%
   button_link: https://github.com/IggHub/todo-api
+  timeline: 2016
+  technologies: Ruby on Rails
 
 
 - name: yelpdemo
@@ -35,37 +43,50 @@
   desc: Yelp replica for foodies, from foodie
   button_link: https://iggy-yelpdemo.herokuapp.com/
   button: <a class="suit_and_tie" href="https://iggy-yelpdemo.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
+  timeline: 2016
+  technologies: Ruby on Rails
 
 - name: blocjams
   github_repo: bloc-jams
   desc: Spotify-wannabe to listen music online
   button_link: http://superintendant-cheats-37872.netlify.com/
   button: <a class="suit_and_tie" href="https://tutor-tips-53668.netlify.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
+  timeline: 2016
+  technologies: Javascript(Vanilla)
 
 - name: blocjams(angular)
   github_repo: bloc-jams-angular
   desc: Angular version of Blocjams
   button: <a class="suit_and_tie" href="https://smuggler-experience-66057.netlify.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
+  timeline: 2016
+  technologies: AngularJS
 
 - name: react-fish
   github_repo: react-fish
   desc: React menu app for seafood lovers
   button_link: https://igghub.github.io/react-fish/
   button: <a class="suit_and_tie" href="https://igghub.github.io/react-fish/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
+  timeline: 2016
+  technologies: ReactJS
 
 - name: instaredux
   github_repo: instaredux
   desc: Instagram prototype with React flavor
   button_link: https://github.com/IggHub/instaredux
-
+  timeline: 2016
+  technologies: ReactJS, Redux
 
 - name: pomodoro
   github_repo: pomodoro
   desc: Simple pomodoro timer for productive people like you!
   button_link: https://iggy-pomodoro.herokuapp.com/
   button: <a class="suit_and_tie" href="https://iggy-pomodoro.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
+  timeline: 2016
+  technologies: AngularJS
 
 - name: Kele
   github_repo: kele
   desc: Ruby gem API to access Bloc API
   button_link: https://github.com/IggHub/kele
+  timeline: 2016
+  technologies: Ruby

@@ -14,13 +14,16 @@ title: Projects
       <a href="{{site.url}}/{{ project.github_repo }}">
         {{ project.github_repo }}
       </a>
+      <span class="pull-right"><h6>{{ project.timeline}}<h6></span>
+    </div>
+
+    <div class="project-technologies">
+      <span>Technologies: {{project.technologies}}<span>
     </div>
 
     <div class="project-desc">
-      {{ project.desc }}
+      <h4>{{ project.desc }}</h4>
     </div>
-
-    <hr>
 
     <div class="project-images">
       <img src="{{ site.baseurl  }}{{project.images}}">
