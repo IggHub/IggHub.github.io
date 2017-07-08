@@ -123,6 +123,10 @@ rearrangeStudentsWithScores(){
   ...
 ```
 
+Note:
+1. `Promise.all()` takes in an array (of promises)
+2. Because it takes an array, its `then` chain must be followed with an array (i.e. `Client.getStudentsAndScores.then(([array1, array2, array3, ... arrayN]) => {//do something//})`)
+
 Now `this.state.scores` and `this.state.students` will be both fulfilled before `rearrangeStudentsWithScores` is run.
 
 That's it. If you want to drop by and say hello, have questions, or see an error, please feel free to drop a comment or email me!
