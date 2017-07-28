@@ -31,14 +31,14 @@
   review_blog_path: 2016/09/29/bloccit-app-review
   review_blog_title: bloccit-app-review
 
-
-
 - name: Todo-API
   github_repo: todo-api
   desc: Externally usable todo API to boost productivity by 108%
   button_link: https://github.com/IggHub/todo-api
   timeline: 2016
   technologies: Ruby on Rails
+  review_blog_path: 2016/10/14/todo-api-app-review
+  review_blog_title: todo-api-app-review
 
 
 - name: yelpdemo
