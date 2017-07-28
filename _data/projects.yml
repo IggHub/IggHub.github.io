@@ -27,11 +27,11 @@
   button: <a class="suit_and_tie" href="https://sheltered-everglades-14741.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
   images: "/assets/images/bloccit.png"
   explanation: First Rails app I made ever.
-  problem:
-  solution:
-  conclusion:
   timeline: 2016
   technologies: Ruby on Rails
+  review_blog_path: 2016/09/29/bloccit-app-review
+  review_blog_title: bloccit-app-review
+
 
 
 - name: Todo-API
