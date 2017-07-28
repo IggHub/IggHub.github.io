@@ -17,6 +17,8 @@
   images: "/assets/images/blocitoff.png"
   timeline: 2016
   technologies: Ruby on Rails
+  review_blog_path: 2016/09/15/2016-blocitoff-app-review
+  review_blog_title: blocitoff-app-review
 
 - name: Bloccit
   github_repo: bloccit
