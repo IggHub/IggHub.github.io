@@ -6,6 +6,8 @@
   images: "/assets/images/wikey-cloney.png"
   timeline: 2016
   technologies: Ruby on Rails
+  review_blog_path: 2016/08/01/wiki-app-review
+  review_blog_title: wiki-app-review
 
 - name: Blocitoff
   github_repo: blocitoff
