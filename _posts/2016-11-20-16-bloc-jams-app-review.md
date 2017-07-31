@@ -55,4 +55,10 @@ Another challenge is to change the icons when play button is clicked, when user 
 
 ## Conclusion
 
-Bloc-jams turns out very good.
+Bloc-jams proves that to make a good looking app, it is not necessary to have a backend. Bloc-jams work awesome even without a database.
+
+Bloc-jams also proves that it is not necessary to use the hottest and newest framework (Angular, React) to create a functional App.  
+
+Now let's jam!
+
+*Repo can be found [here](https://github.com/IggHub/bloc-jams)*
