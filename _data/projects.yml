@@ -49,6 +49,9 @@
   button: <a class="suit_and_tie" href="https://iggy-yelpdemo.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
   timeline: 2016
   technologies: Ruby on Rails
+  images: "/assets/images/yelpdemo/yelp-main.png"
+  review_blog_path: 2016/12/20/yelpdemo-review/
+  review_blog_title: yelp-clone-review
 
 - name: blocjams
   github_repo: bloc-jams

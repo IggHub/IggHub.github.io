@@ -5,7 +5,7 @@ tags:     [rails]
 comments: true
 ---
 
-<img src="/assets/images/yelpdemo/yelp-main.png" alt="wikey main page" style="width: 100%; display: block; margin: 0 auto;"/>
+<img src="/assets/images/yelpdemo/yelp-main.png" alt="Yelp main page" style="width: 100%; display: block; margin: 0 auto;"/>
 
 ## Overview
 I recently found a website to learn Rails called [baserails](https://www.baserails.com/). It teaches Rails by building, not just reading. The projects were intended to be more beginner-ish (some intermediate). One of the project that I decided to tackle was creating a [yelp](https://www.yelp.com/) replica.
