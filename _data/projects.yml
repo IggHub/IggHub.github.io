@@ -37,6 +37,7 @@
   button_link: https://github.com/IggHub/todo-api
   timeline: 2016
   technologies: Ruby on Rails
+  images: "/assets/images/todo-api-upclose.png"
   review_blog_path: 2016/10/14/todo-api-app-review
   review_blog_title: todo-api-app-review
 
