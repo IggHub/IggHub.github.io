@@ -78,6 +78,9 @@
   button: <a class="suit_and_tie" href="https://igghub.github.io/react-fish/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
   timeline: 2016
   technologies: ReactJS
+  images: "/assets/images/react_fish/react-fish.png"
+  review_blog_path: 2016/12/03/react-fish-app-review/
+  review_blog_title: react-fish-app-review
 
 - name: instaredux
   github_repo: instaredux
