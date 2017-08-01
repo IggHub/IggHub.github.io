@@ -60,6 +60,9 @@
   button: <a class="suit_and_tie" href="https://tutor-tips-53668.netlify.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
   timeline: 2016
   technologies: Javascript(Vanilla)
+  images: "/assets/images/bloc_jams/bloc-jams-main-wide.png"
+  review_blog_path: 2016/11/20/16-bloc-jams-app-review/
+  review_blog_title: bloc-jams-review
 
 - name: blocjams(angular)
   github_repo: bloc-jams-angular
