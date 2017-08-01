@@ -96,6 +96,9 @@
   button: <a class="suit_and_tie" href="https://iggy-pomodoro.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
   timeline: 2016
   technologies: AngularJS
+  images: "/assets/images/pomodoro/pomodoro-main.png"
+  review_blog_path: 2016/12/20/pomodoro-app-review/
+  review_blog_title: pomodoro-app-review
 
 - name: Kele
   github_repo: kele
