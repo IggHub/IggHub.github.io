@@ -106,3 +106,6 @@
   button_link: https://github.com/IggHub/kele
   timeline: 2016
   technologies: Ruby
+  images: "/assets/images/kele/kele_sample.png"
+  review_blog_path: 2016/09/30/kele-gem-review/
+  review_blog_title: kele-gem-review
