@@ -76,6 +76,10 @@ a{color:$linkColor; text-decoration:none;}
   z-index: 100;
   cursor: pointer;
   opacity: 80%;
+  a {
+    color: $boldColor;
+    text-decoration: none;
+  }
 }
 .container {
   min-height:600px;
