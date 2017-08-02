@@ -1,0 +1,20 @@
+---
+# styling for resume
+---
+@charset "utf-8";
+
+
+$profileBg:#fff;
+$skillsBg:#5193FE;
+$profileColor:#9099a0;
+$skillsColor:#FFFFFF;
+$linkColor:#F5D76E;
+$boldColor:#4a4e51;
+$time:0.6s;
+
+.button-resume {
+  position: absolute;
+  background: $boldColor;
+  width: 10%;
+  height: 10%;
+}
