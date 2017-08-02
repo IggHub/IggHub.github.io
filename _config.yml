@@ -16,7 +16,7 @@ excerpt_separator:  <!--this-->
 author:
   name:              Igor Irianto
   url:
-  email:             letsmailiggy@gmail.com
+  email:             igor.irianto@gmail.com
   image:             "/assets/images/iggy_square.jpg"
 
 # Custom vars
@@ -32,5 +32,6 @@ paginate_path:        "page:num"
 sass:
   sass_dir:           _sass
   style:              compressed
+
 #misc
 google-analytics:     UA-83941317-1
