@@ -1,5 +1,5 @@
 - name: Wikey-Cloney
-  github_repo: Wikey-Cloney
+  github_repo: blocipedia
   desc: Production quality Wiki SaaS
   button_link: https://mighty-journey-47111.herokuapp.com/
   button: <a class="suit_and_tie" href="https://mighty-journey-47111.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
@@ -17,7 +17,7 @@
   images: "/assets/images/blocitoff.png"
   timeline: 2016
   technologies: Ruby on Rails
-  review_blog_path: 2016/09/15/2016-blocitoff-app-review
+  review_blog_path: 2016/09/16/blocitoff-app-review
   review_blog_title: blocitoff-app-review
 
 - name: Bloccit
@@ -28,7 +28,7 @@
   images: "/assets/images/bloccit.png"
   timeline: 2016
   technologies: Ruby on Rails
-  review_blog_path: 2016/09/29/bloccit-app-review
+  review_blog_path: 2016/06/30/bloccit-app-review/
   review_blog_title: bloccit-app-review
 
 - name: Todo-API

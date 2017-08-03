@@ -11,7 +11,7 @@ title: Projects
 
     <div class="project-title">
       <a href="{{site.url}}/{{ project.github_repo }}">
-        {{ project.github_repo }}
+        {{ project.name }}
       </a>
       <span class="pull-right"><h6>{{ project.timeline}}<h6></span>
     </div>
@@ -25,7 +25,11 @@ title: Projects
     </div>
 
     <div class="project-review">
-      <span>Review: <a href="{{site.url}}/{{project.review_blog_path}}">{{project.review_blog_title}}</a></span>
+      {% if jekyll.environment == 'production' %}
+        <span>Review: <a href="{{site.gh_pages_url}}/{{project.review_blog_path}}">{{project.review_blog_title}}</a></span>
+      {% else %}
+        <span>Review: <a href="{{site.url}}/{{project.review_blog_path}}">{{project.review_blog_title}}</a></span>
+      {% endif %}
     </div>
 
     <div class="project-images">
