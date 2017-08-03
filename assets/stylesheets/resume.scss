@@ -52,6 +52,10 @@ body {
   font-size:16px;
   line-height:1.5em;
 }
+ul {
+  list-style-type: none;
+}
+
 a{color:$linkColor; text-decoration:none;}
 .clearfix::after, .clearfix::before {
   content: " ";
@@ -292,6 +296,9 @@ a{color:$linkColor; text-decoration:none;}
     overflow: hidden;
     color: #FFFFFF;
     cursor: pointer;
+    a {
+      color: $profileBg;
+    }
   }
 }
 
