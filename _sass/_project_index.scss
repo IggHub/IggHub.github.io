@@ -1,0 +1,64 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+}
+
+.portfolio__project-wrapper {
+	padding: 0 10px;
+}
+
+.portfolio__project {
+	position: relative;
+	height: auto;
+	padding: 0;
+	background-color: #f7fbde;
+	background-clip: padding-box;
+	border: 10px solid transparent;
+	overflow: hidden;
+}
+
+.portfolio__project__preview {
+	position: relative;
+	top: 0;
+	height: auto;
+}
+
+
+.portfolio__project__preview > img {
+	width: 100%;
+	height: auto;
+}
+
+.portfolio__project__description {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	padding: 1.8em 1.3em;
+	text-align: center;
+	background: #fff;
+}
+
+.portfolio__project__name {
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	margin: 0;
+	margin-bottom: .2em;
+}
+
+.portfolio__project__category {
+	font-size: .9em;
+	color: #dcd5b2;
+	margin-bottom: .6em;
+}
+
+.portfolio__project__preview,
+.portfolio__project__description {
+	transition: all 600ms ease;
+}
+
+.portfolio__project:hover .portfolio__project__description {
+	transform: translateY(-100%);
+}
+.portfolio__project:hover .portfolio__project__preview {
+	transform: translateY(-2.5em);
+}
