@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Sundae</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.0141368296,13 C0.392067568,19.6717666 8.30001136,25 18,25 C27.6999886,25 35.6079324,19.6717666 35.9858632,13 L36,13 L36,0 L0,0 L0,13 L0.0141368296,13 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sundae" transform="translate(-10.000000, -10.000000)">
+            <g transform="translate(10.000000, 10.000000)">
+                <circle id="Oval" fill="#5193FE" cx="50" cy="50" r="50"></circle>
+                <ellipse id="Shadow" fill="#4186F6" cx="52.5" cy="83.5" rx="20.5" ry="2.5"></ellipse>
+                <circle id="-Main-Ice-Cream" fill="#FFEEE0" cx="50" cy="53" r="18"></circle>
+                <g id="Ice-Cream-Shadow" transform="translate(34.000000, 58.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#FFCE67" xlink:href="#path-1"></use>
+                    <ellipse id="Oval-4-Copy-6" fill="#EEBF5C" mask="url(#mask-2)" cx="0.5" cy="0" rx="5.5" ry="6"></ellipse>
+                    <ellipse id="Oval-4-Copy-5" fill="#EEBF5C" mask="url(#mask-2)" cx="15.5" cy="4.5" rx="10.5" ry="7.5"></ellipse>
+                    <ellipse id="Oval-4-Copy-4" fill="#EEBF5C" mask="url(#mask-2)" cx="28.5" cy="1.5" rx="10.5" ry="7.5"></ellipse>
+                </g>
+                <circle id="Ice-Cream-Overflow1" fill="#FFEEE0" cx="34" cy="56" r="6"></circle>
+                <ellipse id="Ice-Cream-Overflow2" fill="#FFEEE0" cx="46.5" cy="60.5" rx="11.5" ry="7.5"></ellipse>
+                <ellipse id="Ice-Cream-Overflow3" fill="#FFEEE0" cx="61.5" cy="57.5" rx="11.5" ry="7.5"></ellipse>
+                <ellipse id="Ice-Cream-Overflow4" fill="#FFEEE0" cx="61.5" cy="50.5" rx="11.5" ry="7.5"></ellipse>
+                <ellipse id="Cherry-Main-Shadow" fill="#ECD5C2" transform="translate(54.500000, 39.000000) rotate(11.000000) translate(-54.500000, -39.000000) " cx="54.5" cy="39" rx="4.5" ry="2"></ellipse>
+                <path d="M57.5,40.5 L66.5,47.5" id="Cherry-Stem-shaddow" stroke="#ECD5C2" stroke-linecap="square"></path>
+                <circle id="Cherry" fill="#FF4140" cx="54" cy="35" r="4"></circle>
+                <path d="M56.5,33.5 L64.5,26.5" id="Cherry-Stem" stroke="#FF4140" stroke-linecap="square"></path>
+            </g>
+        </g>
+    </g>
+</svg>
