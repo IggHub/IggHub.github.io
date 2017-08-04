@@ -51,6 +51,21 @@ There were several options to use React inside Rails: [react-rails gem](https://
 
 ### Communicating between React and Rails
 
-Although react_on_rails places React inside Rails app, they are still, technically, separate entity. In order to communicate to Rails while using React, an API request... (create most posts that addresses each one of these issues. like how to use fetch. How to use recharts. How to use Twilio.)
+Although react_on_rails places React inside Rails app, they are still, technically, separate entity. In order to communicate to Rails while using React, an API request. They were discussed on my previous posts {% if jekyll.environment == 'production' %}<a href="{{site.gh_pages_url}}/2017/06/30/react-on-rails-how-to-talk-from-react-to-rails/">HERE</a>{% else %}<a href="{{site.url}}/2017/06/30/react-on-rails-how-to-talk-from-react-to-rails/">HERE</a>{% endif %} and {% if jekyll.environment == 'production' %}<a href="{{site.gh_pages_url}}/2017/07/08/better-way-to-fetch-multiple-json/">THERE</a>{% else %}<a href="{{site.url}}/2017/07/08/better-way-to-fetch-multiple-json/">THERE</a>{% endif %}
+
+### Using Twilio service from React frontend
+
+The Reminder feature uses Twilio. Twilio sits in the backend on Rails. The Reminder page itself is created on React frontend. How can I connect those two together? I addressed the problem on this post HERE.
+
+### Structuring and iterating multiple student models in React
+
+The Scorer feature iterates through an array of `students` array of objects. It tabulates the `points` attribute per student, per week. Keeping the code DRY was quite challenging. In the end, I managed to create a table cell component (`<td>`) and reused that on each column and each row. An example on how it was done was shown HERE
+
+### Choosing a specific student when iterating in React
+
+Under each student's table was `Display Chart` button. Recall the previous point where students are product of iteration. How then, did I make React to know which student was clicked? The issue was addressed on this post HERE
+
+
+... (create most posts that addresses each one of these issues. like how to use fetch. How to use recharts. How to use Twilio.)
 
 ## What's next
