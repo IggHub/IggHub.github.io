@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    RSpec intro - 2 - factorygirl baby steps
-tags:     [ruby-on-rails, RSpec]
+tags:     [rails, rspec]
 comments: true
 ---
 

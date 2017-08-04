@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Better way to fetch multiple JSON
-tags:     [Promise, React, Fetch]
+tags:     [promise, react, fetch]
 comments: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Design Resources
-tags:     [Front-end, design, theory, resources]
+tags:     [front-end, design, theory]
 comments: true
 ---
 

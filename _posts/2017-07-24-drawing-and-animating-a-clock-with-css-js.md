@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Drawing And Animating Clock With CSS And JS
-tags:     [HTML, CSS, Javascript, Animation]
+tags:     [html, css, javascript, animation]
 comments: true
 ---
 

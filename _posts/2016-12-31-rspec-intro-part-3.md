@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    RSpec intro - 3 - factorygirl model testing continued
-tags:     [ruby-on-rails, RSpec]
+tags:     [rails, rspec]
 comments: true
 ---
 

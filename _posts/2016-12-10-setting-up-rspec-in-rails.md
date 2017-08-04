@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Setting up RSpec in Rails in a minute
-tags:     [ruby-on-rails, RSpec]
+tags:     [rails, rspec]
 comments: true
 ---
 

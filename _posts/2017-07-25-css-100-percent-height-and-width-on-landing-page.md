@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    CSS 100 Percent Height And Width On Landing Page
-tags:     [HTML, CSS, Javascript]
+tags:     [html, css, javascript]
 comments: true
 ---
 

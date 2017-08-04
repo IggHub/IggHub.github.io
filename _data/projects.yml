@@ -1,3 +1,14 @@
+- name: Sundae-App
+  github_repo: awanafy
+  desc: Sunday School classroom management for awesome people
+  button_link: http://todayissundae.herokuapp.com/
+  button: <a class="suit_and_tie" href="http://todayissundae.herokuapp.com/"><i class="fa fa-laptop" aria-hidden="true"></i> Click for Demo</a>
+  images: "/assets/images/sundae/sundae-main.png"
+  timeline: 2017
+  technologies: Ruby on Rails, React
+  review_blog_path: 2017/08/02/sundae-app-review/
+  review_blog_title: sundae-app-review
+
 - name: Wikey-Cloney
   github_repo: blocipedia
   desc: Production quality Wiki SaaS

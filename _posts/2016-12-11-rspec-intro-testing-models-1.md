@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    RSpec intro - 1 - model testing
-tags:     [ruby-on-rails, RSpec]
+tags:     [rails, rspec]
 comments: true
 ---
 
