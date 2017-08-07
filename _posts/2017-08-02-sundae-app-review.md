@@ -59,17 +59,17 @@ The Reminder feature uses Twilio. Twilio sits in the backend on Rails. The Remin
 
 ### Using Sidekiq with Twilio and deploying it on heroku
 
-The Reminder feature reminds people at certain time relative to the date the user chose. In order for Twilio to send the text message at the right time, a worker is needed. [Sidekiq](https://github.com/mperham/sidekiq) was the perfect sidekick for the job (and I am not apologizing for the pun >=D). Sidekiq itself is fairly easy to setup on development environment. Setting up sidekiq on heroku however, can be intimidating. This post HERE addresses how to run redis-to-go on heroku to run sidekiq worker.
+The Reminder feature reminds people at certain time relative to the date the user chose. In order for Twilio to send the text message at the right time, a worker is needed. [Sidekiq](https://github.com/mperham/sidekiq) was the perfect sidekick for the job (and I am not apologizing for the pun >=D). Sidekiq itself is fairly easy to setup on development environment. Setting up sidekiq on heroku however, can be intimidating. [This SO Post](https://stackoverflow.com/questions/13770713/rails-starting-sidekiq-on-heroku) answers how to deploy sidekiq on heroku via [redistogo](https://elements.heroku.com/addons/redistogo). To schedule basic workers, it is free.
 
 ### Structuring and iterating multiple student models in React
 
-The Scorer feature iterates through an array of `students` array of objects. It tabulates the `points` attribute per student, per week. Keeping the code DRY was quite challenging. In the end, I managed to create a table cell component (`<td>`) and reused that on each column and each row. An example on how it was done was shown HERE
+The Scorer feature iterates through an array of `students` array of objects. It tabulates the `points` attribute per student, per week. Keeping the code DRY was quite challenging. In the end, I managed to create a table cell component (`<td>`) and reused that on each column and each row. An example on how it was done was shown {% if jekyll.environment == 'production' %}<a href="{{site.gh_pages_url}}/2017/07/12/reusing-table-cell-in-react/">HERE</a>{% else %}<a href="{{site.url}}/2017/07/12/reusing-table-cell-in-react/">HERE</a>{% endif %}.
 
 ### Choosing a specific student when iterating in React
 
-Under each student's table was `Display Chart` button. Recall the previous point where students are product of iteration. How then, did I make React to know which student was clicked? The issue was addressed on this post HERE
+Under each student's table was `Display Chart` button. Recall the previous point where students are product of iteration. How then, did I make React to know which student was clicked? The issue was addressed on this post {% if jekyll.environment == 'production' %}<a href="{{site.gh_pages_url}}/2017/07/20/choosing-distinct-element-when-iterating-in-react/">HERE</a>{% else %}<a href="{{site.url}}/2017/07/20/choosing-distinct-element-when-iterating-in-react/">HERE</a>{% endif %}.
 
-
-... (create most posts that addresses each one of these issues. like how to use fetch. How to use recharts. How to use Twilio.)
 
 ## What's next
+
+The App is still WIP. The post will be continually being updated as more features are implemented. So stay tuned!
