@@ -2,7 +2,7 @@
   <div class="portfolio__project-wrapper row">
 
     <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4 text-center" data-cat="fcc">
-      <a href="{{site.url}}/2016/11/20/16-bloc-jams-app-review/" target="_blank" title="view live">
+      <a href="{{site.gh_pages_url}}/2016/11/20/16-bloc-jams-app-review/" target="_blank" title="view live">
         <div class="portfolio__project__preview">
           <img src="/assets/images/icons/radio_jam.svg" alt="bloc jams view icon">
         </div>
@@ -16,7 +16,7 @@
     </div>
 
     <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="fcc">
-      <a href="{{site.url}}/2016/06/30/bloccit-app-review/" target="_blank" title="view live">
+      <a href="{{site.gh_pages_url}}/2016/06/30/bloccit-app-review/" target="_blank" title="view live">
         <div class="portfolio__project__preview">
           <img src="/assets/images/icons/bloc_it.svg" alt="bloc it view icon">
         </div>
@@ -31,7 +31,7 @@
 
 
     <div class="portfolio__project col-xs-12 col-sm-6 col-lg-4" data-cat="fcc">
-      <a href="{{site.url}}/#" target="_blank" title="view live">
+      {% if jekyll.environment == 'production' %}<a href="{{site.gh_pages_url}}/2017/08/02/sundae-app-review/" target="_blank" title="view live"> {% else %}<a href="{{site.url}}/2017/07/10/using-twilio-from-react-on-react-on-rails/">{% endif %}
         <div class="portfolio__project__preview">
           <img src="/assets/images/icons/sundae.svg" alt="sundae viewer icon">
         </div>
