@@ -3,6 +3,8 @@ layout: default
 title: Home
 ---
 
+<!--
+
 <h1>Projects:</h1>
 {% include project_display.html %}
 
@@ -19,19 +21,24 @@ title: Home
 
 </div>
 
+-->
+
 <h1>Recent Posts:</h1>
 <hr>
 <div class="posts">
   {% for post in paginator.posts %}
-  <div class="post">
-    <h2 class="post-title">
-      <a href="{{ post.url }}">
+  <div class="post-card">
+    <div class="content post-title">
+      <a href="{{ post.url }}" class="post-link">
         {{ post.title }}
       </a>
-    </h2>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-    {{ post.content | strip_html | truncatewords: 25 }}
+    </div>
+    <div class="content post-date">
+      {{ post.date | date_to_string }}
+    </div>
+    <div class="content post-content">
+      {{ post.content | strip_html | truncatewords: 25 }}
+    </div>
   </div>
   {% endfor %}
 </div>

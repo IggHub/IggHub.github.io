@@ -6,44 +6,44 @@ title: Projects
 
 <div class="project-list">
   <ul class="project-ul">
-  {% for project in site.data.projects %}
-  <li class="project-li">
+    {% for project in site.data.projects %}
+    <li class="project-li">
 
-    <div class="project-title">
-      <a href="{{site.url}}/{{ project.github_repo }}">
-        {{ project.name }}
-      </a>
-      <span class="pull-right"><h6>{{ project.timeline}}<h6></span>
-    </div>
+      <div class="project-title">
+        <a href="{{site.url}}/{{ project.github_repo }}">
+          {{ project.name }}
+        </a>
+        <span class="pull-right"><h6>{{ project.timeline}}<h6></span>
+      </div>
 
-    <div class="project-technologies">
-      <span>Technologies: {{project.technologies}}<span>
-    </div>
+      <div class="project-technologies">
+        <span>Technologies: {{project.technologies}}<span>
+      </div>
 
-    <div class="project-desc">
-      <h4>{{ project.desc }}</h4>
-    </div>
+      <div class="project-desc">
+        <h4>{{ project.desc }}</h4>
+      </div>
 
-    <div class="project-review">
-      {% if jekyll.environment == 'production' %}
-        <span>Review: <a href="{{site.gh_pages_url}}/{{project.review_blog_path}}">{{project.review_blog_title}}</a></span>
-      {% else %}
-        <span>Review: <a href="{{site.url}}/{{project.review_blog_path}}">{{project.review_blog_title}}</a></span>
-      {% endif %}
-    </div>
+      <div class="project-review">
+        {% if jekyll.environment == 'production' %}
+          <span>Review: <a href="{{site.gh_pages_url}}/{{project.review_blog_path}}">{{project.review_blog_title}}</a></span>
+        {% else %}
+          <span>Review: <a href="{{site.url}}/{{project.review_blog_path}}">{{project.review_blog_title}}</a></span>
+        {% endif %}
+      </div>
 
-    <div class="project-images">
-      <img src="{{ site.baseurl  }}{{project.images}}">
-    </div>
+      <div class="project-images">
+        <img src="{{ site.baseurl  }}{{project.images}}">
+      </div>
 
-    <div class="project-content">
-      {{project.explanation}}
-    </div>
+      <div class="project-content">
+        {{project.explanation}}
+      </div>
 
-    <div class="project-button">
-      {{project.button}}
-    </div>
-  </li>
-  {% endfor %}
+      <div class="project-button">
+        {{project.button}}
+      </div>
+    </li>
+    {% endfor %}
   </ul>
 </div>

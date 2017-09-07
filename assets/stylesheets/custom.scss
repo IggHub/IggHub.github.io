@@ -176,10 +176,64 @@
   text-align: center;
   line-height: 50px;
   opacity: 0.85;
+  display: Flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.email-button:hover {
+  height: 60px;
+  width: 160px;
+  .email-text {
+    font-size: 20px;
+    text-decoration: none;
+  }
 }
 
 .email-text {
   color: #ffffff;
+  font-size: 16px;
+  transition: all 0.5 cubic-bezier(.25, .8, .25, 1);
 }
 
 /* END Email Button */
+
+/* Blog post */
+
+.post-card {
+  background: #fff;
+  border-radius: 2px;
+  height: 200px;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.50);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  overflow: scroll;
+}
+
+.post-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+
+.content {
+  padding: 3px 15px;
+}
+
+.post-title {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.post-link {
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.post-link:hover {
+  font-size: 40px;
+  text-decoration: none;
+}
+
+/* end blog post CSS */
