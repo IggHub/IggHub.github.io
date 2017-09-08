@@ -4,6 +4,44 @@ title: Projects
 ---
 <h1>Projects</h1>
 
+<div class="posts">
+  {% for project in site.data.projects %}
+    <div class="project-card">
+      <div class="project-card-image">
+        <img src="{{ site.baseurl  }}{{project.images}}" alt="">
+      </div>
+
+      <div class="project-card-technology project-margin">
+        <div class="technologies">
+          {{project.technologies}}
+        </div>
+        <div class="dates">
+          {{ project.timeline}}
+        </div>
+      </div>
+
+      <div class="project-card-title project-margin">
+        <a href="{{site.url}}/{{ project.github_repo }}" class="linky">
+          {{ project.name }}
+        </a>
+      </div>
+
+      <div class="project-card-content project-margin">
+        {{project.desc}}
+      </div>
+
+      <div class="project-card-review project-margin">
+        {% if jekyll.environment == 'production' %}
+          <a class="text" href="{{site.gh_pages_url}}/{{project.review_blog_path}}">Review</a>
+        {% else %}
+          <a class="text" href="{{site.url}}/{{project.review_blog_path}}">Review</a>
+        {% endif %}
+        <a href="{{project.button_link}}" class="text">Demo</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+<!--
 <div class="project-list">
   <ul class="project-ul">
     {% for project in site.data.projects %}
@@ -47,3 +85,4 @@ title: Projects
     {% endfor %}
   </ul>
 </div>
+-->
