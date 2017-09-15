@@ -7,11 +7,11 @@ permalink:           pretty
 # Setup
 title:               Igor Irianto
 tagline:             'Rails, React, Sketch'
-description:         '"All you have to decide is what to do with the time that is given to you" <span class="pull-right">- G.</span>'
+description:         '"All you have to decide is what to do with the time that is given to you" <span class="pull-right">- Gandalf</span>'
 url:                 https://github.com/IggHub
 gh_pages_url:        https://igghub.github.io
 baseurl:             ''
-paginate:            10
+
 excerpt_separator:  <!--this-->
 # About/contact
 author:
@@ -21,14 +21,15 @@ author:
   image:             "/assets/images/iggy_square.jpg"
 
 # Custom vars
-version:             1.1.0
+version:             1.3.0
 
 # Gems
 gems:                [jekyll-paginate]
 
-#paginate: 5
+#paginate: 7
+paginate:             7
+#paginate_path:        posts/page:num
 paginate_path:        "page:num"
-
 #sass
 sass:
   sass_dir:           _sass

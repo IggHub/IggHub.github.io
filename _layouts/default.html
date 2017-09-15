@@ -27,9 +27,9 @@
               <div class="header-nav">
                 <a href="{{ site.baseurl }}/">Home</a>
                 <a href="{{ site.baseurl }}/projects">Projects</a>
+                <a href="{{ site.baseurl }}/posts">Posts</a>
                 <!--<a>Sketches</a>-->
                 <a href="{{ site.baseurl }}/resume">Resume</a>
-                <a href="{{ site.baseurl }}/tags">Tags</a>
               </div>
             </div>
           </h3>
@@ -43,6 +43,27 @@
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
+    <!-- masonry and imagesLoaded -->
+    <!-- masonry: https://masonry.desandro.com/ -->
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!-- imagesLoaded -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script>
+      var $grid = $('.grid').imagesLoaded( function() {
+        $grid.masonry({
+          itemSelector: '.grid-item',
+          percentPosition: true,
+          columnWidth: '.grid-sizer'
+        });
+      });
+
+    </script>
+    <!-- end masonry and imagesLoaded -->
+
+
+
+    <!-- sidebar toggle -->
     <script>
       (function(document) {
         var toggle = document.querySelector('.sidebar-toggle');
@@ -60,6 +81,8 @@
         }, false);
       })(document);
     </script>
+    <!-- END sidebar -->
+
     <!-- displaying total comments https://help.disqus.com/customer/portal/articles/565624-adding-comment-count-links-to-your-home-page#non-link-elements -->
     <!--    <script id="dsq-count-scr" src="//https-igghub-github-io.disqus.com/count.js" async></script>-->
   </body>

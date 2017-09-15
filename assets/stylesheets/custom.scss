@@ -27,140 +27,6 @@
   padding-top: 30px;
 }
 
-.default-intro {
-  padding: 10px 0px 10px 0px;
-}
-
-.project-list {
-  padding: 20px 0px 20px 0px;
-}
-
-.project-ul {
-  list-style-type: none;
-}
-
-.project-li {
-  padding: 10px 0px 50px 0px;
-}
-
-.suit_and_tie {
-  color: white;
-  font-size: 35px;
-  font-family: helvetica;
-  text-decoration: none;
-  border: 2px solid white;
-  border-radius: 10px;
-  transition-duration: .2s;
-  -webkit-transition-duration: .2s;
-  -moz-transition-duration: .2s;
-  background-color: #515151;
-  padding: 4px 30px;
-}
-
-.suit_and_tie:hover {
-  color: #515151;
-  text-decoration: none;
-  background-color: white;
-  transition-duration: .2s;
-  -webkit-transition-duration: .2s;
-  -moz-transition-duration: .2s;
-}
-
-
-
-.appstorebutton a {
-  color: white;
-  text-decoration: none;
-}
-
-.appstorebutton p {
-  font: 30px/1 Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: white;
-  margin: 4px 0 0 65px;
-  width: 180px;
-}
-
-.appstorebutton p small {
-  font-size: 15px;
-}
-
-.appstorebutton a {
-  color: white;
-  text-decoration: none;
-}
-
-.appstorebutton p {
-  font: 30px/1 Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: white;
-  margin: 4px 0 0 65px;
-  width: 180px;
-}
-
-.appstorebutton p small {
-  font-size: 15px;
-}
-
-
-/*Font-Face*/
-
-@font-face {
-  font-family: 'ModernPictogramsNormal';
-  src: url('modernpics-webfont.eot');
-  src: url('modernpics-webfont.eot?#iefix') format('embedded-opentype'),
-    url('modernpics-webfont.woff') format('woff'),
-    url('modernpics-webfont.ttf') format('truetype'),
-    url('modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-/*Font-Face*/
-
-@font-face {
-  font-family: 'ModernPictogramsNormal';
-  src: url('modernpics-webfont.eot');
-  src: url('modernpics-webfont.eot?#iefix') format('embedded-opentype'),
-    url('modernpics-webfont.woff') format('woff'),
-    url('modernpics-webfont.ttf') format('truetype'),
-    url('modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-.appstorebutton {
-  height: 80px;
-  width: 80px;
-  margin: 50px;
-  position: relative;
-  overflow: hidden;
-  float: left;
-
-  -webkit-border-radius: 40px;
-     -moz-border-radius: 40px;
-   	  border-radius: 40px;
-
-  -webkit-transition: width 1s ease;
-     -moz-transition: width 1s ease;
-       -o-transition: width 1s ease;
-      -ms-transition: width 1s ease;
-	  transition: width 1s ease;
-}
-
-.appstorebutton:hover {
-  width: 275px;
-}
-.mac small:before {
-  content: 'A';
-  position: absolute;
-  top: 22px;
-  left: 19px;
-}
-
-.project-desc {
-  padding-bottom: 10px;
-}
-
 /*Fixed Bottom-Right Email Button*/
 
 .mac {
@@ -243,22 +109,29 @@
 
 /* project post */
 
+.project-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
 .project-card {
   background: #ffffff;
   border-radius: 2px;
-  margin: 2rem auto;
-  max-width: 500px;
-  width: 500px;
+  margin: 1rem auto;
+  max-width: 400px;
+  width: 400px;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.50);
+  box-shadow: 1px 2px 3px rgba(0,0,0,0.36);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 .project-card:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+  box-shadow: 7px 14px 28px rgba(0,0,0,0.25);
 }
 
 .project-margin {
@@ -321,3 +194,67 @@ img {
   text-decoration: none;
 }
 /* end project post CSS */
+
+/* Codepen embed codes */
+.cp_embed_wrapper {
+  /* required for resize to work */
+  overflow: hidden;
+
+  /* make resizeble! */
+  resize: both;
+
+  /* required to see the handle */
+  background: white;
+  padding-bottom: 10px;
+
+  /* default height */
+  height: 500px;
+  width: 500px;
+}
+.cp_embed_wrapper iframe {
+  height: 100% !important;
+}
+
+/* end codepen */
+
+/* masonry */
+* { box-sizing: border-box; }
+
+/* ---- grid ---- */
+
+.grid {
+  max-width: 1200px;
+}
+
+/* clearfix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- grid-item ---- */
+
+.grid-item {
+  width: 160px;
+  height: 120px;
+  float: left;
+  background: #D26;
+  border-radius: 5px;
+  margin: 5px;
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.grid-item:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25);
+}
+
+.grid-prescription {width: 650; height: 300}
+.grid-item--width2 { width: 320px; }
+.grid-item--width3 { width: 480px; }
+.grid-item--width4 { width: 640px; }
+.grid-item--height2 { height: 200px; }
+.grid-item--height3 { height: 260px; }
+.grid-item--height4 { height: 360px; }
+
+/* end masonry */
