@@ -1,7 +1,7 @@
 ---
 layout:   post
 title:    Node Module Exports
-tags:     [Ruby, nodejs]
+tags:     [nodejs]
 comments: true
 ---
 
