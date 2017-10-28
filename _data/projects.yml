@@ -1,3 +1,9 @@
+- name: Red Robin App
+  desc: Developed in-house training app for iOS devices and web
+  images: "/assets/images/red-robin/Mockup.png"
+  timeline: 2017
+  technologies: Ruby on Rails, React, React-Native
+
 - name: Sundae-App
   github_repo: awanafy
   desc: Sunday School classroom management for awesome people
