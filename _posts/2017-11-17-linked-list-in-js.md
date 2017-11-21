@@ -16,7 +16,7 @@ The goal of this is to start at the `head` (first item), then if we go the `next
 Let's start by creating a constructor.
 
 ```
-function List (){
+function LinkedList (){
   this._head = null;
   this._length = 0;
 }
@@ -29,23 +29,25 @@ This constructor has a two properties: `_head` and `_length`. They are both null
 The first feature we are implementing is adding an item to the list. We want to be able to add an item (ideally a simple primitive object like string, number, or boolean) into the right side of the list. Let's add that to our `List` prototype:
 
 ```
-List.prototype = {
+LinkedList.prototype = {
   add: function(data){
     var node = {data: data, next: null};
 
-    if(this._head === null) { //if there is no item yet
+    if(this._head === null) {
       this._head = node;
-    } else { //if there is at least one item
-      current = this._head; //initially sets up current to equal first item on the list
+    } else {
+      current = this._head;
 
-      while(current.next){ //while current.next is not null, we keep going until we hit the end of the list.
+      while(current.next){
         current = current.next;
       }
 
-      current.next = node; //finally, after reaching the final item, we set our new data here
+      current.next = node;
     }
-    this._length++; //we just added one item in the list. Need to update _length
+    this._length++;
+    return node;
   },
+
 }
 ```
 
@@ -53,7 +55,7 @@ List.prototype = {
 The data shape is fairly simple. It is an object with two keys: `{data: data, next: null}`. The key here is to fill next with the next node.
 
 ```
-var list = new List();
+var list = new LinkedList();
 
 list.add('Kentucky');
 
@@ -78,23 +80,21 @@ The second feature we need is the ability to look for an item index (like an arr
 Pretty intuitive, I hope. Let's do this:
 
 ```
-List.prototype = {
+LinkedList.prototype = {
   ...
 
-  item: function(index){ //takes in index as an argument
-    if(index > -1 && index > this._length){ //make sure index is at least 0 and won't be higher than total items we have in our list
-      var current = this._head; //we set up current to equal our head, the very first item on the list
-      var i = 0; //to start our iteration from 0
-
-      while (i++ < index) { //this starts the while with i value being i + 1 instead of 0. This also forces the current to go up to index level deep
-        current = current.next; //updates current to equal the next data object (recall current.next looks like {data: 'someData, next: //either null or more next'})
-      };
-
-      return current.data; //now that current is index level deep, the data key is what we are looking for
+  item: function(index){
+    if (index > -1 && index < this._length){
+      var current = this._head;
+      var i = 0;
+      while(i++ < index){
+        current = current.next;
+      }
+      return current;
     } else {
       return null;
     }
-  }
+  },
 }
 ```
 
@@ -103,40 +103,39 @@ List.prototype = {
 The final feature we need is the ability to remove an item based on its index. If user gives invalid index it will return null.
 
 ```
-List.prototype = {
+LinkedList.prototype = {
   ...
 
   remove: function(index){
-    if(index > -1 && index > this._length){
-      var current = this._head; //same as before, starts off by setting up current to equal the first item on our linked list (head)
-      var i = 0;
-      var previous; //keeps track of previous item
 
-      if (index === 0){ //removing first item requires special behavior
-        this._head = current.next; //if we are removing the very first item, naturally we would shift the next item into our new head.
+    if (index > -1 && index < this._length){
+
+      var current = this._head;
+      var previous;
+      var i = 0;
+
+      if (index === 0){
+        this._head = current.next;
       } else {
         while(i++ < index){
-          previous = current; //sets previous as current placeholder
-          current = current.next; //current is the next item, always one step ahead of previous
+          previous = current;
+          current = current.next;
         }
-
-        previous.next = current.next; //this line is the key. Recall that current is now one step ahead. Equating previous.next to current.next, it skips over the next item, essentially removing it from our linked list.
-      }
-
-      this.length--; //update length
-
-      return current.data;
-    } else {
-      return null;
+      previous.next = current.next;
     }
-  }
+    this._length--;
+    return current.data;            
+    } else {
+      return null;       
+    }
+  },
 }
 ```
 
 Awesome! So far we created an add, search, and remove function.
 
 ```
-var list = new List();
+var list = new LinkedList();
 
 list.add('Kentucky');
 list.add('Fried');
@@ -146,4 +145,4 @@ list.remove(1);
 list.item(1);
 ```
 
-On the next blog, I will show how to create a `reverse` function to reverse all the lists.
+On the next blog, I will show how to create a `reverse` function to reverse all the lists. Check out the [github repo](https://github.com/IggHub/javascript-linked-list-demo) for full code.
